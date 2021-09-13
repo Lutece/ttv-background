@@ -1,0 +1,19 @@
+@import url("./common/reset.css");
+@import url("./components/index.css");
+
+html, body {
+    font-family: 'Noto Sans KR';
+}
+
+body {
+    min-width: 1760px;
+}
+
+.nodrag {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

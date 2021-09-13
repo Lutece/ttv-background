@@ -1,0 +1,133 @@
+.lesson {
+    width: 1230px;
+    margin: 0 auto 92px;
+}
+
+.lesson__header {
+    margin-bottom: 22.34px;
+}
+
+.lesson__header-title {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 37.65px;
+    letter-spacing: -1.5px;
+}
+
+
+.lesson__header-allview-link {
+    display: inline;
+    float: right;
+}
+
+.lesson__header-allview-link a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    letter-spacing: -1.5px;
+    vertical-align: top;
+    color: #808080;
+}
+
+.lesson__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+}
+
+.lesson__content-item {
+    width: 276px;
+    margin-right: 42px;
+    margin-bottom: 62px;
+}
+
+.lesson__content-image {
+    margin-bottom: 23.66px;
+}
+
+.lesson__content-title {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.27px;
+    letter-spacing: -0.5px;
+    color: #505050;
+}
+
+.lesson__content-name {
+    width: 276px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.68px;
+    color: #202020;
+}
+
+.lesson__content-writer {
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #A0A0A0;
+}
+
+.lesson__content-price-free {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: -0.5px;
+    color: #00D164;
+}
+
+.lesson__content-price-list {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #D0D0D0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    letter-spacing: -0.5px;
+}
+
+.lesson__content-price-sale {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FF2828;
+    line-height: 16.41px;
+    letter-spacing: -0.5px;
+}
+
+.lesson__content-price-complete, .lesson__content-price-list-only {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: -0.5px;
+}
+
+.lesson__content-more-info {
+    float: right;
+    display: flex;
+    font-size: 12px;
+}
+
+.lesson__content-view-count {
+    margin-right: 6px;
+    cursor: pointer;
+    color: #505050;
+}
+
+.lesson__content-view-count-number {
+    vertical-align: super;
+}
+
+.lesson__content-comment {
+    cursor: pointer;
+    color: #505050;
+}
+
+.lesson__content-comment-count {
+    vertical-align: super;
+}

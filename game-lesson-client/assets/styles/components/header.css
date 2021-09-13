@@ -1,0 +1,84 @@
+header {
+  justify-content: center;
+  font-size: 14px;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  line-height: 80px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+
+/* 상단 헤더 광고 */
+.ad {
+  display: block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  background-color: #00D164;
+}
+
+.ad__header-text {
+  display: block;
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.ad__header-content {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.ad__header-close {
+  float: right;
+  cursor: pointer;
+}
+
+
+
+
+/* 상단 메뉴 광고 */
+.nav-menu {
+  width: 1240px;
+  margin: 0 auto;
+}
+.menu__logo {
+  margin-right: 104px;
+  cursor: pointer;
+}
+
+.menu__logo-img{
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.menu__item {
+  display: inline-block;
+  margin: 0 45px;
+  cursor: pointer;
+}
+
+.menu__login {
+  margin-left: 188px;
+}
+
+.menu__login-text {
+  margin-right: 40px; 
+  cursor: pointer;
+}
+
+.menu__search-icon {
+  display: inline-block;
+  width: 18px; 
+  height: 18px;
+  vertical-align: sub;
+  cursor: pointer;
+}
+

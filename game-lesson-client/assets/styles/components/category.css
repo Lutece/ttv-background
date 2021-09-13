@@ -1,0 +1,20 @@
+.category {
+    width: 1280px;
+    margin: 0 auto 152px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    width: 160px;
+    height: 70px;
+    margin: 0 10px 20px;
+    background-color: #F0F0F0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    border-radius: 6px;
+}
