@@ -1,0 +1,33 @@
+.introduction {
+    width: 1230px;
+    margin: 0 auto 80px;
+}
+
+
+.introduction__title {
+    width: 870px;
+    margin: 0 auto 20px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+    color: #202020;   
+}
+
+.introduction__description {
+    width: 870px;
+    margin: 0 auto 70px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+    color: #202020;
+}
+
+.introduction__image {
+    display: block;
+    width: 870px;
+    height: 435px;
+    margin: 0 auto 70px;
+    text-align: center;
+}

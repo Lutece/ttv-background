@@ -25,18 +25,21 @@ nav {
 }
 
 .ad__header-text {
+  position: relative;
   display: block;
-  width: 1240px;
+  width: 1187px;
   margin: 0 auto;
 }
 
 .ad__header-content {
   display: inline-block;
   font-weight: 500;
+  margin-left: 115px;
 }
 
 .ad__header-close {
-  float: right;
+  position: absolute;
+  right: -200px;
   cursor: pointer;
 }
 
@@ -45,11 +48,13 @@ nav {
 
 /* 상단 메뉴 광고 */
 .nav-menu {
-  width: 1240px;
+  position: relative;
+  width: 1187px;
   margin: 0 auto;
 }
 .menu__logo {
-  margin-right: 104px;
+  margin-left: 115px;
+  margin-right: 149px;
   cursor: pointer;
 }
 
@@ -61,12 +66,13 @@ nav {
 
 .menu__item {
   display: inline-block;
-  margin: 0 45px;
+  margin-right: 90px;
   cursor: pointer;
 }
 
 .menu__login {
-  margin-left: 188px;
+  position: absolute;
+  right: -205px;
 }
 
 .menu__login-text {

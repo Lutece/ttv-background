@@ -1,0 +1,63 @@
+.order__side-content {
+    position: absolute;
+    right: -270px;
+    top: 70px;
+}
+
+.order-side__category-title {
+    margin-bottom: 13px;
+    color: #202020;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+}
+
+.order-side__category-list {
+    margin-bottom: 40px;
+}
+
+.order-side__category-list-item {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.68px;
+}
+
+.lesson-recently {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+    color: #202020;
+}
+
+.lesson-recently__item {
+    margin-bottom: 30px;
+}
+
+.lesson-recently__item img {
+    width: 140px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.lesson-recently__item-title {
+    margin-bottom: 4px;
+    color: #202020;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.68px;
+}
+
+.lesson-recently__item-price {
+    color: #FF2828;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: -0.5px;
+}
+

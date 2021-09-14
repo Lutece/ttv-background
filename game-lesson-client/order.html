@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게임레슨</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <header class="nodrag">
+      <aside>
+        <div class="ad">
+          <div class="ad__header-text">
+            <span class="ad__header-content">
+              게임레슨 가입시 5만원 포인트를 드립니다.
+            </span>
+            <span class="ad__header-close">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L11.4 11.4" stroke="white" stroke-width="0.8" stroke-linecap="square"/>
+                <path d="M11.3999 1L0.999903 11.4" stroke="white" stroke-width="0.8" stroke-linecap="square"/>
+              </svg>                
+            </span>
+          </div>
+        </div>
+      </aside>
+      <nav class="nav-menu">
+        <div class="menu__logo">
+          <img class="menu__logo-img" src='./assets/images/logo.png' width="33px" height="30px" alt="로고 이미지" />
+          <span class="menu__logo-text">게임레슨</span>
+        </div>
+        <ul class="menu">
+          <li class="menu__item">전체카테고리</li>
+          <li class="menu__item">7월오픈예정</li>
+          <li class="menu__item">이벤트</li>
+          <li class="menu__item">바로수강</li>
+          <li class="menu__item">오픈예정</li>
+        </ul>
+        <div class="menu__login">
+          <span class="menu__login-text">로그인</span>
+          <span class="menu__search-icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="7.5" cy="7.5" r="6.75" stroke="black" stroke-width="1.5"/>
+              <path d="M12 12L16.8839 17.1161" stroke="black" stroke-width="1.5"/>
+              </svg>              
+          </span>
+        </div>
+      </nav>
+    </header>
+    <section>
+        <div class="order">
+            <aside>
+                <div class="order__side-content">
+                    <h3 class="order-side__category-title">모든 카테고리</h3>
+                    <ul class="order-side__category-list">
+                        <li class="order-side__category-list-item">로블록스</li>
+                        <li class="order-side__category-list-item">마인크래프트</li>
+                        <li class="order-side__category-list-item">어몽어스</li>
+                        <li class="order-side__category-list-item">스타크래프트</li>
+                        <li class="order-side__category-list-item">피파2021</li>
+                        <li class="order-side__category-list-item">배틀그라운드</li>
+                        <li class="order-side__category-list-item">리니지</li>
+                        <li class="order-side__category-list-item">LOL</li>
+                    </ul>
+                    <h3 class="lesson-recently">최근 방문 강의</h3>
+                    <ul class="lesson-recently__list">
+                        <li class="lesson-recently__item">
+                            <img src="assets/images/roblox.png" width="140px" height="90px" />
+                            <p class="lesson-recently__item-title">마인크래프트 집만들기 기술</p>
+                            <p class="lesson-recently__item-price">4,9000원</p>
+                        </li>
+                        <li class="lesson-recently__item">
+                            <img src="assets/images/roblox.png" width="140px" height="90px" />
+                            <p class="lesson-recently__item-title">마인크래프트 집만들기 기술</p>
+                            <p class="lesson-recently__item-price">4,9000원</p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <h2 class="order__title">로블록스 초보를 고수로</h2>
+            <img class="order__image" src="./assets/images/roblox.png" width="870px" height="435px" alter="주문 상품 이미지" />
+            <button class="order__coupon-btn">할인쿠폰 받기<span class="coupon-icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.4 7L7.59956 11.8L2.80005 7" stroke="white" stroke-width="0.8"/>
+                    <path d="M2 15H13.2" stroke="white" stroke-width="0.8"/>
+                    <path d="M7.6001 11.4V1" stroke="white" stroke-width="0.8"/>
+                </svg></span>
+            </button>
+            <div class="order__info">
+                <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                    <div class="lession__content-category">
+                        <span class="lession__content-category-title">Categories</span>
+                        <span>
+                            <svg width="1" height="10" viewBox="0 0 1 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="1" height="10" fill="#F0F0F0"/>
+                            </svg>                            
+                        </span>
+                        <span class="lession__content-category-item">roblox</span>
+                    </div>
+                </div>
+                <div class="order__info-detail">
+                    <div></div>
+                    <div class="order__price">
+                        <span class="order__price-sale">4,9000원</span>
+                        <span class="order__price-list">7,0000원</span>
+                        <button class="order__coupon-btn-apply">쿠폰 적용</button>
+                    </div>
+                </div>
+                <button class="order__buy-btn">구매하기</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="introduction">
+            <h2 class="introduction__title">로블록스 소개</h2>
+            <p class="introduction__description">
+                로블록스(Roblox)는 사용자가 게임을 프로그래밍하고, 다른 사용자가 만든 게임을 즐길 수 있는 온라인 게임 플랫폼 및 게임 제작 시스템이다. 데이비드 바수츠키와 에릭 카셀이 2004년에 설립하고 2006년에 출시한 이 플랫폼은 루아 프로그래밍 언어로 코딩된 여러 장르의 사용자 제작 게임을 호스팅한다.<br/><br/>
+로블록스의 역사 대부분 동안, 공동 창립자 바수츠키가 언론 보도에 대한 관심이 부족했고 같은 때 출시된 많은 플랫폼들 사이에서 "길을 잃어 버렸기" 때문에 플랫폼으로나 회사로서나 상대적으로 작았다. 로블록스는 2010년대 하반기에 빠르게 성장하기 시작했으며, 이러한 성장은 2020년대에 코로나19 범유행으로 인해 더욱 두드러졌다.[7][8] 로블록스는 무료로 플레이할 수 있으며, "로벅스(Robux)"라는 가상 화폐를 통해 게임 내에서 구매가 가능하다. 2021년 5월 기준, 로블록스는 570만명의 최대 동접자를 달성했고, 월 1억 6400만명 이상의 활성 사용자를 보유하고 있고 사용자가 지속적으로 늘고 있으며,[9] 미국에서 16세 미만 어린이의 절반 이상이 게임을 하고 있다.<br/><br/>
+게임 플랫폼으로서의 지위로 인해 로블록스는 다양한 인기 게임을 보유하고 있다. 그리고 2021년 5월 기준 로블록스에서 가장 인기 있는 게임은 매월 1,000만 명 이상의 활성 플레이어를 보유하고 있다. 2020년 8월 기준으로 최소 20개의 게임이 10억(1B+) 회 이상 플레이되었으며, 최소 5,000개의 게임이 100만회 이상 플레이되었다.[12] 또한 2021년 5월 17일 기준으로 로블록스 내에는 적어도 4000만개 이상의 게임들이 존재한다.
+            </p>
+            <img class="introduction__image" src="assets/images/roblox.png" width="870px" height="435px" alt="로블록스 이미지" />
+            <p class="introduction__description">
+                로블록스는 사용자가 자체 게임 엔진인 "로블록스 스튜디오"(Roblox Studio)를 사용하여 자신만의 게임을 만들고 자신이 만든 게임을 다른 사용자가 플레이할 수 있도록 한다. 게임은 게임 환경을 조작하기 위해 프로그래밍 언어 루아 5.1.4를 사용하는 객체 지향 프로그래밍 시스템에서 코딩된다. 사용자는 "게임 패스 (Gamepass)로 알려진 일회성 구매와 "개발자 제품" 또는 "제품"으로 알려진 한 번 이상 구매할 수 있는 소액 결제를 통해 구매 가능한 콘텐츠를 만들 수 있다. 구매 수익의 일정 비율은 개발자와 로블록스 코퍼레이션과 나누어 분배된다. 현재 로블록스 스튜디오를 사용하여 제작된 대부분의 게임은 미성년자들이 개발했으며 이를 사용하여 연간 총 2천만 개의 게임이 제작된다.
+            </p>
+            <img class="introduction__image" src="assets/images/roblox.png" width="870px" height="435px" alt="로블록스 이미지" />
+        </div>
+    </section>
+    <section>
+        <div class="curriculum">
+            <h3 class="curriculum__title">커리큘럼</h3>
+            <p class="curriculum__info">게임레슨을 신청하신 분들이 배우는 커리큘럼입니다.</p>
+            <ul>
+                <li class="curriculum__item">
+                    <img class="curriculum__item-image" src="./assets/images/curriculum_step_1.png" width="276px" height="180px" />
+                    <div>
+                        <h4 class="curriculum__item-title">01 로블록스 설치 및 설정</h4>
+                        <p class="curriculum__item-description">
+                            로블록스를 시작하기 전에 준비해야 하는 모든 과정을 
+배울 수 있습니다. 그리고 게임을 하기 전에 나에게 맞는 
+설정은 아주 중요합니다.
+                        </p>
+                    </div>
+                </li>
+                <li class="curriculum__item">
+                    <img class="curriculum__item-image" src="./assets/images/curriculum_step_2.png" width="276px" height="180px" />
+                    <div>
+                        <h4 class="curriculum__item-title">02 새로운 맵 찾기</h4>
+                        <p class="curriculum__item-description">
+                            로블록스를 시작하기 전에 준비해야 하는 모든 과정을 
+배울 수 있습니다. 그리고 게임을 하기 전에 나에게 맞는 
+설정은 아주 중요합니다.
+                        </p>
+                    </div>
+                </li>
+                <li class="curriculum__item">
+                    <img class="curriculum__item-image" src="./assets/images/curriculum_step_3.png" width="276px" height="180px" />
+                    <div>
+                        <h4 class="curriculum__item-title">03 모험을 시작</h4>
+                        <p class="curriculum__item-description">
+                            로블록스를 시작하기 전에 준비해야 하는 모든 과정을 
+배울 수 있습니다. 그리고 게임을 하기 전에 나에게 맞는 
+설정은 아주 중요합니다.
+                        </p>
+                    </div>
+                </li>
+                <li class="curriculum__item">
+                    <img class="curriculum__item-image" src="./assets/images/curriculum_step_4.png" width="276px" height="180px" />
+                    <div>
+                        <h4 class="curriculum__item-title">04 게임을 만들어 볼까!</h4>
+                        <p class="curriculum__item-description">
+                            로블록스를 시작하기 전에 준비해야 하는 모든 과정을 
+배울 수 있습니다. 그리고 게임을 하기 전에 나에게 맞는 설정은 아주 중요합니다.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+      <div class="lesson">
+        <header class="lesson__header">
+          <h2 class="lesson__header-title">이런 강의도 있어요.</h2>
+          <div class="lesson__header-allview-link"><a href="">전체 보기</a></div>
+        </header>
+        <section>
+          <ul class="lesson__content">
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/new_lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-free">무료</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/new_lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-list">50,000원</span>
+                  <span class="lesson__content-price-sale">15,000원</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-complete">구매완료</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-list-only">15,000원</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-list">50,000원</span>
+                  <span class="lesson__content-price-sale">15,000원</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-list">50,000원</span>
+                  <span class="lesson__content-price-sale">15,000원</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-list">50,000원</span>
+                  <span class="lesson__content-price-sale">15,000원</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lesson__content-item">
+              <img class="lesson__content-image" src='assets/images/lecture.png' width="276px" height="180px" alt="강의 이미지" />
+              <div class="lesson__content-info">
+                <div class="lesson__content-title">로블록스</div>
+                <div class="lesson__content-name">
+                  당신의 상상을 현실로! 블렌더로 시작하는 3D 배경 디자인 게임 강의
+                </div>
+                <div class="lesson__content-writer">
+                  김하하
+                </div>
+                <div class="lesson__content-more">
+                  <span class="lesson__content-price-list">50,000원</span>
+                  <span class="lesson__content-price-sale">15,000원</span>
+                  <div class="lesson__content-more-info">
+                    <div class="lesson__content-view-count">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.07959 9.84375C12.7645 9.84375 14.7938 11.3721 14.7938 14.1469H14.0625C14.0625 11.2464 11.4472 10.5975 9.19963 10.5756L9.07959 10.575C6.81075 10.575 4.10625 11.1946 4.10625 14.1469H3.375C3.375 11.3721 5.40113 9.84375 9.07959 9.84375ZM9.08443 2.8125C10.7593 2.8125 12.1219 4.17516 12.1219 5.85C12.1219 7.52484 10.7593 8.8875 9.08443 8.8875C7.40959 8.8875 6.04693 7.52484 6.04693 5.85C6.04693 4.17516 7.40959 2.8125 9.08443 2.8125ZM9.08443 3.54375C7.8129 3.54375 6.77818 4.57847 6.77818 5.85C6.77818 7.12181 7.8129 8.15625 9.08443 8.15625C10.356 8.15625 11.3907 7.12181 11.3907 5.85C11.3907 4.57847 10.356 3.54375 9.08443 3.54375Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-view-count-number">568</span>
+                    </div>
+                    <div class="lesson__content-comment">
+                      <span>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39375 2.8125C6.08172 2.8125 3.375 5.14482 3.375 8.05324L3.37678 8.22862C3.4125 9.95706 3.98842 10.9357 5.36489 11.9538L5.48156 12.0386L5.48812 14.3217L5.49189 14.3855C5.53826 14.7797 6.00191 14.9913 6.33334 14.7455L8.39025 13.2199L8.2214 13.1943C8.60535 13.2602 8.99725 13.2937 9.39375 13.2937C12.7058 13.2937 15.4125 10.9616 15.4125 8.05324C15.4125 5.14482 12.7058 2.8125 9.39375 2.8125ZM9.39375 3.6C12.2947 3.6 14.625 5.60794 14.625 8.05324C14.625 10.4985 12.2948 12.5062 9.39375 12.5062C9.042 12.5062 8.69473 12.4765 8.35478 12.4181L8.18885 12.3896L6.27413 13.8088L6.26812 11.6275L6.09894 11.5105C4.6628 10.5171 4.1625 9.725 4.1625 8.05324C4.1625 5.60794 6.49276 3.6 9.39375 3.6Z" fill="#505050"/>
+                        </svg>                          
+                      </span>
+                      <span class="lesson__content-comment-count">13</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+  </body>
+</html>

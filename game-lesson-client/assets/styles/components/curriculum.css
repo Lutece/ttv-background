@@ -1,0 +1,51 @@
+.curriculum {
+    width: 870px;
+    margin: 0 auto 150px;
+}
+
+.curriculum__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+}
+
+.curriculum__info {
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+}
+
+.curriculum__item {
+    width: 660px;
+    height: 180px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.curriculum__item-image {
+    width: 276px;
+    height: 180px;
+    margin-right: 34px;
+    border-radius: 4px;
+}
+
+.curriculum__item-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+    color: #202020;
+}
+
+.curriculum__item-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.68px;
+    color: #202020;
+}
